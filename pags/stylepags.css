@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Syne+Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #0000ff, #00009e);
+    padding-top: 1px;
+    height: 80px;
+}
+
+header h1 {
+    padding-left: 20px;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: -3px 2px 4px black;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #00009e, #000042);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    color: white;
+    text-decoration-line: none;
+    font-size: 18px;
+    text-shadow: -2px 1px 1px black;
+}
+
+nav a:hover {
+    color: rgb(0, 255, 179);
+    background-color: #0036e973;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+main {
+    min-width: 237px;
+    max-width: 100%;
+    height: 880px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #070f29;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.519);
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.3em;
+    font-family: 'Rubik Mono One', monospace;
+    float: left;
+}
+main img {
+    float: left;
+    margin-left: -47px;
+    margin-top: -180px;
+}
+
+aside ul {
+    columns: 1;
+}
+
+aside li {
+    color: rgb(255, 255, 255);
+}
+
+aside li a {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+main a:hover {
+    color: aquamarine;
+}
